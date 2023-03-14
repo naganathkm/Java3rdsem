@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name= "lab3.employee" table="employee">
+<id name="empid" type="string" column="empid"></id>
+<property name="name" type="string" column="name"/>
+<property name="age" type="int" column="age"/>
+<property name="salary" type="int" column="salary"/>
+</class> 
+</hibernate-mapping>
